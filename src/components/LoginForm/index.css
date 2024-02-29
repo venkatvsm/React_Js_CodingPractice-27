@@ -1,0 +1,83 @@
+/* Write your CSS code here */
+.Login_Container {
+  min-height: 100vh;
+  font-family: 'Roboto';
+  padding: 50px;
+  text-align: center;
+}
+.LoginForm_logoImage1 {
+  width: 48%;
+  margin-bottom: 25px;
+  align-self: center;
+}
+.Login_logoImage {
+  display: none;
+}
+.LoginForm_CardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.LoginForm_logo {
+  align-self: center;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 15px;
+}
+.LoginForm_label {
+  color: #1e293b;
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: bold;
+}
+.LoginForm_input {
+  width: 100%;
+  height: 50px;
+  background-color: #d7dfe9;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+  font-size: 21px;
+}
+.LoginForm_btn {
+  width: 100%;
+  text-align: center;
+  height: 50px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 21px;
+}
+.errorMsg {
+  color: #ff0b37;
+}
+@media screen and (min-width: 768px) {
+  .LoginForm_logoImage1 {
+    display: none;
+  }
+  .Login_logoImage {
+    align-self: center;
+    display: inline;
+    width: 100%;
+  }
+  .LoginForm_logo {
+    max-width: 440px;
+  }
+  .LoginForm_CardContainer {
+    width: 400px;
+    padding: 25px;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    margin-left: 25px;
+  }
+  .Login_Container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .LoginForm_logo {
+  }
+}

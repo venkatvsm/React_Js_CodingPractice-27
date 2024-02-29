@@ -1,0 +1,141 @@
+/* Write your CSS code here */
+.Home_container {
+  font-family: 'Roboto';
+  padding: 25px;
+}
+.Home_headerContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header_LogoConatiner {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.header_websitelogo {
+  width: 100px;
+}
+.header_navlogout {
+  width: 30px;
+}
+.Home_iconContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  background-color: #e6f6ff;
+}
+.Home_iconContainer_Image {
+  width: 30px;
+}
+.HomeLinkContainer {
+  display: none;
+  list-style-type: none;
+  padding: 0px;
+}
+.Home_bodyContainer {
+  width: 100%;
+}
+.bodyContainer_cardContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.body_heading {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 45px;
+  max-width: 400px;
+}
+.body_image {
+  width: 200px;
+}
+.body_para {
+  text-align: center;
+  font-family: 'Roboto';
+  max-width: 400px;
+  font-size: 15px;
+  color: #475569;
+}
+.ShopNow_Btn {
+  background-color: #0967d2;
+  color: #ffffff;
+  font-size: 16px;
+  width: 120px;
+  height: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.Home_bigscreenImage {
+  display: none;
+  width: 40%;
+}
+@media screen and (min-width: 768px) {
+  .Home_container {
+    padding-left: 30px;
+  }
+  .header_websitelogo {
+    width: 200px;
+  }
+  .Home_iconContainer {
+    display: none;
+  }
+  .header_navlogout {
+    display: none;
+  }
+  .body_image {
+    display: none;
+  }
+  .Home_headerContainer {
+    flex-direction: row;
+  }
+  .HomeLinkContainer {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  .homeLink_para {
+    margin: 18px;
+    font-size: 21px;
+  }
+  .Logout_Btn {
+    background-color: #0967d2;
+    color: #ffffff;
+    font-size: 18px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .Home_bodyContainer {
+    margin-top: 10px;
+    display: flex;
+  }
+  .bodyContainer_cardContainer {
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 20px;
+  }
+  .body_heading {
+    text-align: start;
+    font-size: 45px;
+  }
+  .body_para {
+    text-align: start;
+    font-size: 25px;
+  }
+  .Home_bigscreenImage {
+    display: block;
+    width: 50%;
+  }
+}
